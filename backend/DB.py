@@ -1,7 +1,7 @@
 from supabase.client import create_client 
 
-supabaseUrl = "https://uzforpyrdtvmcylbwsdk.supabase.co"
-supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV6Zm9ycHlyZHR2bWN5bGJ3c2RrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDk4MjE4NDMsImV4cCI6MjA2NTM5Nzg0M30.yje9AzdLEkgrmfBy5NlZ7LiPyTnTG0dqB6qoRe_ey6E"
+supabaseUrl = ""
+supabaseKey = ""
 
 # Create Supabase client
 database = create_client(supabaseUrl,supabaseKey)
