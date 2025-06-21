@@ -4,8 +4,8 @@ from tekore import Spotify,RefreshingCredentials,Scope
 import os
 
 app=FastAPI()
-client_id = '9bf2f5538fe949228ab5cdccc03e7338'
-client_secret = '5aaf3b9973b4449785e920b900a83b5e'
+client_id = ''
+client_secret = ''
 redirect_uri = 'http://127.0.0.1:8000/callback'
 
 
