@@ -4,9 +4,9 @@ from tekore import Spotify, scope, RefreshingCredentials
 import os
 
 # Setup
-client_id = '9bf2f5538fe949228ab5cdccc03e7338'
-client_secret = '5aaf3b9973b4449785e920b900a83b5e'
-redirect_uri = 'http://127.0.0.1:8000/callback'
+client_id = ''
+client_secret = ''
+redirect_uri = ''
 
 TOKEN_FILE = "refresh_token.txt"
 rcred = RefreshingCredentials(client_id, client_secret, redirect_uri)
